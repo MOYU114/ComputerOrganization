@@ -1,0 +1,52 @@
+`include "ctrl_encode_def.v"
+// data memory
+module dm(clk, DMWr, addr, din, dout, LD, SV);
+   input          clk;
+   input          DMWr;
+   input  [8:0]   addr;
+   input  [31:0]  din;
+   input  [2:0]   LD;
+   input  [1:0]   SV;
+   output reg [31:0]  dout;
+     
+   reg [31:0] dmem[127:0];
+   wire [31:0] addrByte_b;
+   wire [31:0] addrByte_h;
+    wire [31:0] addrByte_w;
+   assign addrByte_w = addr[8:2]<<2;
+   assign addrByte_h = addr[8:1]<<1;
+   assign addrByte_b = addr;
+    always @( * ) begin
+        case(LD)
+            `LB:  dout = {{24{dmem[addrByte_b][7]}}, dmem[addrByte_b][7:0]};   // LB
+            `LBU: dout = {24'b0, dmem[addrByte_b][7:0]};                          // LBU
+            `LH:  dout = {{16{dmem[addrByte_h[8:1]][15]}}, dmem[addrByte_h[8:1]][15:0]}; // LH
+            `LHU: dout = {16'b0, dmem[addrByte_h[8:1]][15:0]};                         // LHU
+            `LW:  dout = dmem[addrByte[8:2]];                                        // LW
+            default: dout = dmem[addrByte[8:2]];                                     // undefined
+        endcase
+   end
+   always @(posedge clk)
+      if (DMWr) begin
+        case(SV)
+            `SB: 
+            begin 
+                dmem[addrByte_b][7:0] <= din[7:0]; 
+                $display("dmem[0x%8X] = 0x%2X,", addrByte, din[7:0]);
+            end 
+            `SH: 
+            begin 
+                dmem[addrByte_h[8:1]][15:0] <= din[15:0];
+                $display("dmem[0x%8X] = 0x%4X,", addrByte, din[15:0]); 
+            end 
+            `SW: 
+            begin 
+                dmem[addrByte_w[8:2]] <= din;
+                $display("dmem[0x%8X] = 0x%8X,", addrByte, din);
+            end 
+            default: begin dmem[addrByte_w[8:2]] <= din;$display("dmem[0x%8X] = 0x%8X,", addrByte, din);end 
+        endcase
+        //$display("dmem[0x%8X] = 0x%8X,", addrByte, din);
+      end
+   
+endmodule  

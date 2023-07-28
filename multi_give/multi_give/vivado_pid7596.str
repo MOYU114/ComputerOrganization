@@ -1,0 +1,96 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 7596
+License: Customer
+
+Current time: 	Thu Apr 13 18:26:03 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 4 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	F:/vivado/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	F:/vivado/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	congr
+User home directory: C:/Users/congr
+User working directory: G:/college/大二下/计组实验/main/multi_give/multi_give
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: F:/vivado/Vivado
+HDI_APPROOT: F:/vivado/Vivado/2017.4
+RDI_DATADIR: F:/vivado/Vivado/2017.4/data
+RDI_BINDIR: F:/vivado/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/congr/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/congr/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/congr/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	F:/vivado/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	G:/college/大二下/计组实验/main/multi_give/multi_give/vivado.log
+Vivado journal file location: 	G:/college/大二下/计组实验/main/multi_give/multi_give/vivado.jou
+Engine tmp dir: 	G:/college/大二下/计组实验/main/multi_give/multi_give/.Xil/Vivado-7596-DESKTOP-U6JQ6MK
+
+GUI allocated memory:	140 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 588 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: G:\college\大二下\计组实验\main\multi_give\multi_give\multi_give.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 60 MB (+60624kb) [00:00:07]
+// [Engine Memory]: 481 MB (+352451kb) [00:00:07]
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project G:/college/大二下/计组实验/main/multi_give/multi_give/multi_give.xpr 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 561 MB (+59368kb) [00:00:09]
+// [GUI Memory]: 65 MB (+2202kb) [00:00:10]
+// [GUI Memory]: 74 MB (+5510kb) [00:00:12]
+// Tcl Message: open_project G:/college/大二下/计组实验/main/multi_give/multi_give/multi_give.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/25162/Desktop/multi_give' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/vivado/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 40 MB. Current time: 4/13/23 6:26:04 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 739.336 ; gain = 75.945 
+// [Engine Memory]: 608 MB (+20023kb) [00:00:13]
+// Project name: multi_give; location: G:/college/大二下/计组实验/main/multi_give/multi_give; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// a (cj): Critical Messages: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 13 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MCCPUSOC_Top (MCCPU_Top.v)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MCCPUSOC_Top (MCCPU_Top.v)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MCCPUSOC_Top (MCCPU_Top.v), U_MCCPU : mccpu (mccpu.v)]", 4, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Launch External Editor: 'D:/Microsoft VS Code/Code.exe -g "G:/college/大二下/计组实验/main/multi_give/multi_give/multi_give.srcs/sources_1/imports/计组/2023春计算机系统基础实验/source/source/MCCPU_FPGATop/MCCPU_Top.v":3'
+// [GUI Memory]: 78 MB (+370kb) [00:15:20]
+// [GUI Memory]: 82 MB (+11kb) [00:22:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 42 MB. Current time: 4/13/23 6:56:07 PM CST

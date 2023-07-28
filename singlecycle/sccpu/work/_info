@@ -1,0 +1,326 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ModelSim/examples
+T_opt
+!s110 1682171920
+VzO2;gVA3]l?1CFCzL_>X22
+04 9 4 work sccomp_tb fast 0
+=1-744ca1b179db-6443e80f-2dd-701c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+R0
+valu
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 mU:3NJ^8f2VRT`MMB=z^:1
+I`<Reii3mYzQc:]D4ISMd@2
+Z3 dD:/code/main/singlecycle/sccpu
+w1682592124
+8D:/code/main/singlecycle/sccpu/alu.v
+FD:/code/main/singlecycle/sccpu/alu.v
+L0 3
+Z4 OL;L;10.5;63
+Z5 !s108 1682602120.000000
+!s107 ctrl_encode_def.v|D:/code/main/singlecycle/sccpu/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/alu.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vctrl
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 [d8c7C0ee1em3f^5_foHE1
+IHGQJN;Bb^2k@>AGTO18j_3
+R3
+w1682341394
+8D:/code/main/singlecycle/sccpu/ctrl.v
+FD:/code/main/singlecycle/sccpu/ctrl.v
+L0 4
+R4
+R5
+!s107 D:/code/main/singlecycle/sccpu/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/ctrl.v|
+!i113 0
+R6
+R1
+vdm
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 6oHD<`G@]@=aH39o1^?>40
+IWLfBZcSg_9=boTR:j[VkF0
+R3
+w1682389889
+8D:/code/main/singlecycle/sccpu/dm.v
+FD:/code/main/singlecycle/sccpu/dm.v
+L0 3
+R4
+Z7 !s108 1682602121.000000
+!s107 ctrl_encode_def.v|D:/code/main/singlecycle/sccpu/dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/dm.v|
+!i113 0
+R6
+R1
+vEXT
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 d`GCF]Xe]JFP6O7KiSl;j1
+I_]>J:a:Rj_F[N[5O`B^j?0
+R3
+w1571487706
+8D:/code/main/singlecycle/sccpu/EXT.v
+FD:/code/main/singlecycle/sccpu/EXT.v
+L0 2
+R4
+R7
+!s107 D:/code/main/singlecycle/sccpu/EXT.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/EXT.v|
+!i113 0
+R6
+R1
+n@e@x@t
+vim
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 U;JIL?DAR;UKk>XKgK4W72
+I:Ol5o0i;?m0@=08k=hBml0
+R3
+w1551458228
+8D:/code/main/singlecycle/sccpu/im.v
+FD:/code/main/singlecycle/sccpu/im.v
+L0 3
+R4
+R7
+!s107 D:/code/main/singlecycle/sccpu/im.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/im.v|
+!i113 0
+R6
+R1
+vmux16
+Z8 !s110 1682602121
+!i10b 1
+!s100 _kD]@DiV[:SJ[]_:lBKV[0
+I1VI:z:Z[7d__nel6]OMhJ1
+R2
+R3
+Z9 w1550765554
+Z10 8D:/code/main/singlecycle/sccpu/mux.v
+Z11 FD:/code/main/singlecycle/sccpu/mux.v
+L0 71
+R4
+r1
+!s85 0
+31
+R7
+Z12 !s107 D:/code/main/singlecycle/sccpu/mux.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/mux.v|
+!i113 0
+R6
+R1
+vmux2
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 QXC^TY7h[nMB8eh1LThKL1
+Iif0bY;BAi<?f;66KIBcV?0
+R3
+R9
+R10
+R11
+L0 2
+R4
+R7
+R12
+R13
+!i113 0
+R6
+R1
+vmux4
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 3KQ[c;ZUY31^gKT9SAAk20
+I;Lm?T31?c=3d78g:gkJG@2
+R3
+R9
+R10
+R11
+L0 15
+R4
+R7
+R12
+R13
+!i113 0
+R6
+R1
+vmux8
+R8
+!i10b 1
+!s100 FLg[0F=fBIb=LWfFP8G0M0
+I8IFP^1eFVRM4b^RP6FbF:1
+R2
+R3
+R9
+R10
+R11
+L0 40
+R4
+r1
+!s85 0
+31
+R7
+R12
+R13
+!i113 0
+R6
+R1
+vNPC
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^]@K[8JC`EjOZAYH@>PZ^3
+IW8<g<IQoATID^T;EgV[eh3
+R3
+w1681957113
+8D:/code/main/singlecycle/sccpu/NPC.v
+FD:/code/main/singlecycle/sccpu/NPC.v
+L0 3
+R4
+R7
+!s107 ctrl_encode_def.v|D:/code/main/singlecycle/sccpu/NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/NPC.v|
+!i113 0
+R6
+R1
+n@n@p@c
+vPC
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 lM7N@gR;4fMz]3L;mLgJ<2
+I[3KN54P>@1]jPijz3@h_h3
+R3
+w1550113688
+8D:/code/main/singlecycle/sccpu/PC.v
+FD:/code/main/singlecycle/sccpu/PC.v
+L0 1
+R4
+R7
+!s107 D:/code/main/singlecycle/sccpu/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/PC.v|
+!i113 0
+R6
+R1
+n@p@c
+vRF
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 e?U@1Fe^@gYOeA1VZZ@]^0
+IPLAPF>fBe71FVCf^iNRmd3
+R3
+w1551271794
+8D:/code/main/singlecycle/sccpu/RF.v
+FD:/code/main/singlecycle/sccpu/RF.v
+L0 2
+R4
+R7
+!s107 D:/code/main/singlecycle/sccpu/RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/RF.v|
+!i113 0
+R6
+R1
+n@r@f
+vsccomp
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Gf`A1<RJPZjgABIXW>hTP3
+IQ<VGC[]LG>ml8JCf0;I7D2
+R3
+w1682339619
+8D:/code/main/singlecycle/sccpu/sccomp.v
+FD:/code/main/singlecycle/sccpu/sccomp.v
+L0 1
+R4
+R7
+!s107 D:/code/main/singlecycle/sccpu/sccomp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/sccomp.v|
+!i113 0
+R6
+R1
+vsccomp_tb
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 `Hh4XD[ejmA7JX>JkQ9TR2
+IQPm26ecYJAjS<id`lzZRo1
+R3
+w1682602071
+8D:/code/main/singlecycle/sccpu/sccomp_tb.v
+FD:/code/main/singlecycle/sccpu/sccomp_tb.v
+L0 3
+R4
+R7
+!s107 D:/code/main/singlecycle/sccpu/sccomp_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/sccomp_tb.v|
+!i113 0
+R6
+R1
+vsccpu
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 BjfFWQ2?;C54oEzCGPU`V0
+I<Bm;;zV4kMzb[nj@In<;D0
+R3
+w1682332385
+8D:/code/main/singlecycle/sccpu/sccpu.v
+FD:/code/main/singlecycle/sccpu/sccpu.v
+L0 1
+R4
+R5
+!s107 D:/code/main/singlecycle/sccpu/sccpu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/sccpu/sccpu.v|
+!i113 0
+R6
+R1

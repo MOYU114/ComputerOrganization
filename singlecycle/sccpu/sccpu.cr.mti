@@ -1,0 +1,94 @@
+C:/Users/Silence/Desktop/modelsim/sccpu/sccpu.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/sccpu.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sccpu
+
+Top level modules:
+	sccpu
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/RF.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/RF.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/sccomp_tb.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/sccomp_tb.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sccomp_tb
+
+Top level modules:
+	sccomp_tb
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/ctrl.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/sccomp.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/sccomp.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module sccomp
+
+Top level modules:
+	sccomp
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/im.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/im.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/ctrl_encode_def.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/ctrl_encode_def.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/dm.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/dm.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/EXT.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/EXT.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/NPC.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/NPC.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/alu.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/alu.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/mux.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/mux.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module mux2
+-- Compiling module mux4
+-- Compiling module mux8
+-- Compiling module mux16
+
+Top level modules:
+	mux2
+	mux4
+	mux8
+	mux16
+
+} {} {}} C:/Users/Silence/Desktop/modelsim/sccpu/PC.v {1 {vlog -work work -vopt -stats=none C:/Users/Silence/Desktop/modelsim/sccpu/PC.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}}

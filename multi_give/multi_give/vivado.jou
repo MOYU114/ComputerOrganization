@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May  8 12:19:22 2023
+# Process ID: 8636
+# Current directory: D:/code/main/multi_give/multi_give
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18412 D:\code\main\multi_give\multi_give\multi_give.xpr
+# Log file: D:/code/main/multi_give/multi_give/vivado.log
+# Journal file: D:/code/main/multi_give/multi_give\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/code/main/multi_give/multi_give/multi_give.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+write_schematic -format pdf -orientation portrait C:/Users/congr/Desktop/real1.pdf
+write_schematic -format pdf -orientation portrait C:/Users/congr/Desktop/real2.pdf

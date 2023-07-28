@@ -1,0 +1,316 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CODWork/MyProject
+valu
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _Z[;9UUCO0b1>gUK9z9W`2
+Ii9c9cKOkNMMEc?jWN0CAd2
+Z1 dD:/code/main/singlecycle/singlecycle_re
+Z2 w1680590496
+8D:/code/main/singlecycle/singlecycle_re/alu.v
+FD:/code/main/singlecycle/singlecycle_re/alu.v
+L0 3
+Z3 OL;L;10.5;63
+Z4 !s108 1682601610.000000
+!s107 ctrl_encode_def.v|D:/code/main/singlecycle/singlecycle_re/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/alu.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vctrl
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Vc[0IM08XL?foO`9B@eR81
+I9@cT3aZ^Yd_fh<oX20?6g2
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/ctrl.v
+FD:/code/main/singlecycle/singlecycle_re/ctrl.v
+L0 4
+R3
+R4
+!s107 D:/code/main/singlecycle/singlecycle_re/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/ctrl.v|
+!i113 0
+R5
+R6
+vdm
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 WiJ40XKP8aUYcRI<FS8DL3
+In<=lzkJo0GHiHOa3zkZ^Z1
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/dm.v
+FD:/code/main/singlecycle/singlecycle_re/dm.v
+L0 3
+R3
+R4
+!s107 D:/code/main/singlecycle/singlecycle_re/dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/dm.v|
+!i113 0
+R5
+R6
+vEXT
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 d`GCF]Xe]JFP6O7KiSl;j1
+IF?_blOJjTPi?eP9HAA44B0
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/EXT.v
+FD:/code/main/singlecycle/singlecycle_re/EXT.v
+L0 2
+R3
+R4
+!s107 D:/code/main/singlecycle/singlecycle_re/EXT.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/EXT.v|
+!i113 0
+R5
+R6
+n@e@x@t
+vim
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 U;JIL?DAR;UKk>XKgK4W72
+IULoIT<j=l>KKYjY`EmC?o2
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/im.v
+FD:/code/main/singlecycle/singlecycle_re/im.v
+L0 3
+R3
+R4
+!s107 D:/code/main/singlecycle/singlecycle_re/im.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/im.v|
+!i113 0
+R5
+R6
+vmux16
+Z7 !s110 1682601610
+!i10b 1
+!s100 _kD]@DiV[:SJ[]_:lBKV[0
+I=4VVVSPfY@_]A3?SMZ1XT3
+R0
+R1
+R2
+Z8 8D:/code/main/singlecycle/singlecycle_re/mux.v
+Z9 FD:/code/main/singlecycle/singlecycle_re/mux.v
+L0 71
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 D:/code/main/singlecycle/singlecycle_re/mux.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/mux.v|
+!i113 0
+R5
+R6
+vmux2
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 QXC^TY7h[nMB8eh1LThKL1
+I>C:=R=zM15;@i:c<?Qf?>2
+R1
+R2
+R8
+R9
+L0 2
+R3
+R4
+R10
+R11
+!i113 0
+R5
+R6
+vmux4
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 3KQ[c;ZUY31^gKT9SAAk20
+I8DL`fCn<goBBcLjYNAF5f2
+R1
+R2
+R8
+R9
+L0 15
+R3
+R4
+R10
+R11
+!i113 0
+R5
+R6
+vmux8
+R7
+!i10b 1
+!s100 FLg[0F=fBIb=LWfFP8G0M0
+In7TlL`Gi`<FWzn_40`:MP3
+R0
+R1
+R2
+R8
+R9
+L0 40
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 0
+R5
+R6
+vNPC
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 :MP_SERlNPHUX<]V<7HnE1
+IUCi`g`iT_z7CBCA]zQ?Al3
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/NPC.v
+FD:/code/main/singlecycle/singlecycle_re/NPC.v
+L0 3
+R3
+R4
+!s107 ctrl_encode_def.v|D:/code/main/singlecycle/singlecycle_re/NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/NPC.v|
+!i113 0
+R5
+R6
+n@n@p@c
+vPC
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 lM7N@gR;4fMz]3L;mLgJ<2
+IV[N^b08azXUP_egXOi^g31
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/PC.v
+FD:/code/main/singlecycle/singlecycle_re/PC.v
+L0 1
+R3
+Z12 !s108 1682601611.000000
+!s107 D:/code/main/singlecycle/singlecycle_re/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/PC.v|
+!i113 0
+R5
+R6
+n@p@c
+vRF
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 e?U@1Fe^@gYOeA1VZZ@]^0
+IYkG`EVA4Vh<cP?WYUECgM1
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/RF.v
+FD:/code/main/singlecycle/singlecycle_re/RF.v
+L0 2
+R3
+R12
+!s107 D:/code/main/singlecycle/singlecycle_re/RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/RF.v|
+!i113 0
+R5
+R6
+n@r@f
+vsccomp
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]5^fQm3XgO=UaQjeOERVe3
+IChF1=bSmO<f;XMhXCn@nT2
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/sccomp.v
+FD:/code/main/singlecycle/singlecycle_re/sccomp.v
+L0 1
+R3
+R12
+!s107 D:/code/main/singlecycle/singlecycle_re/sccomp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/sccomp.v|
+!i113 0
+R5
+R6
+vsccomp_tb
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 `Hh4XD[ejmA7JX>JkQ9TR2
+I>XPX7;cIVClKM5Nlomn3k1
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/sccomp_tb.v
+FD:/code/main/singlecycle/singlecycle_re/sccomp_tb.v
+L0 3
+R3
+R12
+!s107 D:/code/main/singlecycle/singlecycle_re/sccomp_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/sccomp_tb.v|
+!i113 0
+R5
+R6
+vsccpu
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 USiz8QDL:?d87To>lP2An1
+I9b2f[VELD@JVK];]fDB[e2
+R1
+R2
+8D:/code/main/singlecycle/singlecycle_re/sccpu.v
+FD:/code/main/singlecycle/singlecycle_re/sccpu.v
+L0 1
+R3
+R12
+!s107 D:/code/main/singlecycle/singlecycle_re/sccpu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/code/main/singlecycle/singlecycle_re/sccpu.v|
+!i113 0
+R5
+R6

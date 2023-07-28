@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun May  7 16:27:04 2023
+# Process ID: 2060
+# Current directory: D:/code/main/singlecycle/SCCPUJAL_SOC/SCCPUJAL_SOC.runs/impl_1
+# Command line: vivado.exe -log SCCPUSOC_Top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SCCPUSOC_Top.tcl -notrace
+# Log file: D:/code/main/singlecycle/SCCPUJAL_SOC/SCCPUJAL_SOC.runs/impl_1/SCCPUSOC_Top.vdi
+# Journal file: D:/code/main/singlecycle/SCCPUJAL_SOC/SCCPUJAL_SOC.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SCCPUSOC_Top.tcl -notrace
